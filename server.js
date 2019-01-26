@@ -4,7 +4,7 @@ var bodyParser = require('body-parser')
 
 var PORT = process.env.PORT || 8080;
 
-app.use(express.static(__dirname + "/app/public"));
+
  
 // create application/x-www-form-urlencoded parser
 app.use(bodyParser.urlencoded({ extended: true }));
